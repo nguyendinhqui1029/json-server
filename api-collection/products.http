@@ -1,0 +1,51 @@
+@baseUrl=http://localhost:3200/api
+
+@resourceName=products
+
+# @name getAllProducts
+Get {{baseUrl}}/{{resourceName}}
+
+###
+# @name fillterProductsById
+Get {{baseUrl}}/{{resourceName}}?id=e97f0b74-3fb2-4966-9a19-c3334f4886b0
+
+###
+# @name fillterProductsByCategoryId
+Get {{baseUrl}}/{{resourceName}}?categoryId=96e8c0aa-b6b4-434f-b9a7-689140eaf53d
+
+###
+# @name pagination
+Get {{baseUrl}}/{{resourceName}}?_page=1&_limit=2
+
+###
+# @name addNewProduct
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "title": "Handcrafted Frozen Gloves",
+    "subContent": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-d",
+    "detailContent": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "image": "http://placeimg.com/640/480/fashion",
+    "categoryId": "96e8c0aa-b6b4-434f-b9a7-689140eaf53d",
+    "price": "117369.00",
+    "discount": 25,
+    "isHot": false,
+    "createdAt": 1624956232898,
+    "updatedAt": 1624956232898
+}
+
+###
+# @name updateProduct
+PATCH {{baseUrl}}/{{resourceName}}/5dcbc8b9-e235-4f18-9ac5-c33531df0123
+Content-Type: application/json
+
+{
+    "price": "200000",
+    "discount": 25,
+    "isHot": false
+}
+
+###
+# @name deleteProduct
+DELETE  {{baseUrl}}/{{resourceName}}/5dcbc8b9-e235-4f18-9ac5-c33531df0123

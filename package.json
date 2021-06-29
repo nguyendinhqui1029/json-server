@@ -1,0 +1,33 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "config api with json-server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "generate-data": "node generate-data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyendinhqui1029/json-server.git"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "Nguyen Dinh Qui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nguyendinhqui1029/json-server/issues"
+  },
+  "homepage": "https://github.com/nguyendinhqui1029/json-server#readme",
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "query-string": "^7.0.1"
+  }
+}

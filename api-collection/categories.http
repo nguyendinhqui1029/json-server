@@ -1,0 +1,45 @@
+@baseUrl=http://localhost:3200/api
+
+@resourceName=categories
+
+# @name getAllCategories
+Get {{baseUrl}}/{{resourceName}}
+
+###
+# @name fillterCategoriesByIdSubCategory
+Get {{baseUrl}}/{{resourceName}}?idSubCategory=1
+
+###
+# @name fillterProductsByCategoryId
+Get {{baseUrl}}/{{resourceName}}?categoryId=96e8c0aa-b6b4-434f-b9a7-689140eaf53d
+
+###
+# @name pagination
+Get {{baseUrl}}/{{resourceName}}?_page=1&_limit=2
+
+###
+# @name addNewCategory
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "idSubCategory": "2",
+    "name": "Kids 1",
+    "status": 1,
+  }
+
+###
+# @name updateCategory
+PATCH {{baseUrl}}/{{resourceName}}/qHB5jNw
+Content-Type: application/json
+
+{
+  "idSubCategory": "2",
+  "name": "Kids 1",
+  "status": 2,
+  "createdAt": 1624964110216
+}
+
+###
+# @name deleteCategory
+DELETE  {{baseUrl}}/{{resourceName}}/qHB5jNw

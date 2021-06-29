@@ -1,0 +1,44 @@
+@baseUrl=http://localhost:3200/api
+
+@resourceName=news
+
+# @name getAllNews
+Get {{baseUrl}}/{{resourceName}}
+
+###
+# @name fillterNewsById
+Get {{baseUrl}}/{{resourceName}}?id=ade8de19-3a29-45f4-a19d-c4661413331a
+
+###
+# @name fillterNewsByCategoryId
+Get {{baseUrl}}/{{resourceName}}?categoryId=96e8c0aa-b6b4-434f-b9a7-689140eaf53d
+
+###
+# @name pagination
+Get {{baseUrl}}/{{resourceName}}?_page=1&_limit=2
+
+###
+# @name addNewNews
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "title": "Tasty Concrete Keyboard",
+    "subContent": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active m",
+    "detailContent": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "image": "http://placeimg.com/640/480/fashion",
+    "categoryId": "96e8c0aa-b6b4-434f-b9a7-689140eaf53d"
+  }
+
+###
+# @name updateNews
+PATCH {{baseUrl}}/{{resourceName}}/p5QYx00
+Content-Type: application/json
+
+{
+  "title": "Tasty Concrete Keyboard 1"
+}
+
+###
+# @name deleteNews
+DELETE  {{baseUrl}}/{{resourceName}}/p5QYx00
