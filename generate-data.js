@@ -83,10 +83,10 @@ generateUsers = (number) => {
   const products = [];
   const news = [];
   categories.forEach((category) => {
-    products.push(...generateProducts(20, category.id));
+    products.push(...generateProducts(25, category.id));
     news.push(...generateNews(20, category.id));
   });
-  const users = generateUsers(30);
+  const users = generateUsers(10);
   const db = {
     users: users,
     categories: categories,
