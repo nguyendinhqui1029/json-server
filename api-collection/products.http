@@ -7,7 +7,7 @@ Get {{baseUrl}}/{{resourceName}}
 
 ###
 # @name fillterProductsById
-Get {{baseUrl}}/{{resourceName}}?id=e97f0b74-3fb2-4966-9a19-c3334f4886b0
+Get {{baseUrl}}/{{resourceName}}?id=ce3173f4-d71d-4fb1-8270-6c26a45f3298
 
 ###
 # @name fillterProductsByCategoryId

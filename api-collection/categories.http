@@ -7,11 +7,11 @@ Get {{baseUrl}}/{{resourceName}}
 
 ###
 # @name fillterCategoriesByIdSubCategory
-Get {{baseUrl}}/{{resourceName}}?idSubCategory=null
+Get {{baseUrl}}/{{resourceName}}?idSubCategory=3ac6848a-c7d7-432c-85cf-83c21d6022ad
 
 ###
 # @name fillterProductsByCategoryId
-Get {{baseUrl}}/{{resourceName}}?categoryId=96e8c0aa-b6b4-434f-b9a7-689140eaf53d
+Get {{baseUrl}}/{{resourceName}}?id=71cd4b24-c868-4800-9305-08d77857535c
 
 ###
 # @name pagination

@@ -2,14 +2,14 @@ const faker = require("faker");
 const fs = require("fs");
 faker.locale = "vi";
 
-generateCategories = (number,idSubCategory='null') => {
+generateCategories = (number, idSubCategory = "null") => {
   if (number <= 0) return [];
   categoryList = [];
   Array.from(new Array(number)).forEach(() => {
     const category = {
       id: faker.datatype.uuid(),
       idSubCategory: idSubCategory,
-      name: faker.commerce.department(),
+      name: faker.commerce.productName(),
       status: 1,
       createdAt: Date.now(),
       updatedAt: Date.now(),
@@ -79,18 +79,35 @@ generateUsers = (number) => {
   return userList;
 };
 (() => {
-  const categories = generateCategories(5);
+  const categories = generateCategories(6);
   const products = [];
   const news = [];
+  const subCategoriesLevel1 = [];
+  const subCategoriesLevel2 = [];
   categories.forEach((category) => {
-    categories.push(...generateCategories(25, category.id));
-    products.push(...generateProducts(25, category.id));
-    news.push(...generateNews(20, category.id));
+    subCategoriesLevel1.push(
+      ...generateCategories(
+        faker.random.number({ min: 1, max: 4 }),
+        category.id
+      )
+    );
+    category.id !== "null" &&
+      products.push(...generateProducts(10, category.id));
+    category.id !== "null" && news.push(...generateNews(10, category.id));
+  });
+
+  subCategoriesLevel1.forEach((categoryLevel1) => {
+    subCategoriesLevel2.push(
+      ...generateCategories(
+        faker.random.number({ min: 1, max: 10 }),
+        categoryLevel1.id
+      )
+    );
   });
   const users = generateUsers(10);
   const db = {
     users: users,
-    categories: categories,
+    categories: subCategoriesLevel1.concat(subCategoriesLevel2).concat(categories),
     news: news,
     products: products,
     info: {},
