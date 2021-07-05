@@ -7,7 +7,7 @@ Get {{baseUrl}}/{{resourceName}}
 
 ###
 # @name fillterCategoriesByIdSubCategory
-Get {{baseUrl}}/{{resourceName}}?idSubCategory=1
+Get {{baseUrl}}/{{resourceName}}?idSubCategory=null
 
 ###
 # @name fillterProductsByCategoryId

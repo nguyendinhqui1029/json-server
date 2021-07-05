@@ -2,13 +2,13 @@ const faker = require("faker");
 const fs = require("fs");
 faker.locale = "vi";
 
-generateCategories = (number) => {
+generateCategories = (number,idSubCategory='null') => {
   if (number <= 0) return [];
   categoryList = [];
   Array.from(new Array(number)).forEach(() => {
     const category = {
       id: faker.datatype.uuid(),
-      idSubCategory: "",
+      idSubCategory: idSubCategory,
       name: faker.commerce.department(),
       status: 1,
       createdAt: Date.now(),
@@ -79,10 +79,11 @@ generateUsers = (number) => {
   return userList;
 };
 (() => {
-  const categories = generateCategories(10);
+  const categories = generateCategories(5);
   const products = [];
   const news = [];
   categories.forEach((category) => {
+    categories.push(...generateCategories(25, category.id));
     products.push(...generateProducts(25, category.id));
     news.push(...generateNews(20, category.id));
   });
