@@ -1,0 +1,374 @@
+[
+  {
+    "id": "0296",
+    "alias": "AN_GIANG",
+    "label": "An Giang",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0254",
+    "alias": "BA_RIA_VUNG_TAU",
+    "label": "Bà Rịa – Vũng Tàu",
+    "area": "Đông Nam Bộ"
+  },
+  {
+    "id": "0291",
+    "alias": "BAC_LIEU",
+    "label": "Bạc Liêu",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0204",
+    "alias": "BAC_GIANG",
+    "label": "Bắc Giang",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "0209",
+    "alias": "BAC_KAN",
+    "label": "Bắc Kạn",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "0222",
+    "alias": "BAC_NINH",
+    "label": "Bắc Ninh",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "0275",
+    "alias": "BEN_TRE",
+    "label": "Bến Tre",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0274",
+    "alias": "BINH_DUONG",
+    "label": "Bình Dương",
+    "area": "Đông Nam Bộ"
+  },
+  {
+    "id": "0256",
+    "alias": "BINH_DINH",
+    "label": "Bình Định",
+    "area": "Duyên hải Nam Trung Bộ"
+  },
+  {
+    "id": "0271",
+    "alias": "BINH_PHUOC",
+    "label": "Bình Phước",
+    "area": "Đông Nam Bộ"
+  },
+  {
+    "id": "0252",
+    "alias": "BINH_THUAN",
+    "label": "Bình Thuận",
+    "area": "Duyên hải Nam Trung Bộ"
+  },
+  {
+    "id": "0290",
+    "alias": "CA_MAU",
+    "label": "Cà Mau",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0206",
+    "alias": "CAO_BANG",
+    "label": "Cao Bằng",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "0292",
+    "alias": "CAN_THO",
+    "label": "Cần Thơ",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0236",
+    "alias": "DA_NANG",
+    "label": "Đà Nẵng",
+    "area": "Duyên hải Nam Trung Bộ"
+  },
+  {
+    "id": "0262",
+    "alias": "DAK_LAK",
+    "label": "Đắk Lắk",
+    "area": "Tây Nguyên"
+  },
+  {
+    "id": "0261",
+    "alias": "DAK_NONG",
+    "label": "Đắk Nông",
+    "area": "Tây Nguyên"
+  },
+  {
+    "id": "0215",
+    "alias": "DIEN_BIEN",
+    "label": "Điện Biên",
+    "area": "Tây Bắc Bộ"
+  },
+  {
+    "id": "0251",
+    "alias": "DONG_NAI",
+    "label": "Đồng Nai",
+    "area": "Đông Nam Bộ"
+  },
+  {
+    "id": "0277",
+    "alias": "DONG_THAP",
+    "label": "Đồng Tháp",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0269",
+    "alias": "GIA_LAI",
+    "label": "Gia Lai",
+    "area": "Tây Nguyên"
+  },
+  {
+    "id": "0219",
+    "alias": "HA_GIANG",
+    "label": "Hà Giang",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "0226",
+    "alias": "HA_NAM",
+    "label": "Hà Nam",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "024",
+    "alias": "HA_NOI",
+    "label": "Hà Nội",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "0239",
+    "alias": "HA_TINH",
+    "label": "Hà Tĩnh",
+    "area": "Bắc Trung Bộ"
+  },
+  {
+    "id": "0220",
+    "alias": "HAI_DUONG",
+    "label": "Hải Dương",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "0225",
+    "alias": "HAI_PHONG",
+    "label": "Hải Phòng",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "0293",
+    "alias": "HAU_GIANG",
+    "label": "Hậu Giang",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0218",
+    "alias": "HOA_BINH",
+    "label": "Hòa Bình",
+    "area": "Tây Bắc Bộ"
+  },
+  {
+    "id": "028",
+    "alias": "THANH_PHO_HO_CHI_MINH",
+    "label": "Thành phố Hồ Chí Minh",
+    "area": "Đông Nam Bộ"
+  },
+  {
+    "id": "0221",
+    "alias": "HUNG_YEN",
+    "label": "Hưng Yên",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "0258",
+    "alias": "KHANH_HOA",
+    "label": "Khánh Hòa",
+    "area": "Duyên hải Nam Trung Bộ"
+  },
+  {
+    "id": "0297",
+    "alias": "KIEN_GIANG",
+    "label": "Kiên Giang",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0260",
+    "alias": "KON_TUM",
+    "label": "Kon Tum",
+    "area": "Tây Nguyên"
+  },
+  {
+    "id": "0213",
+    "alias": "LAI_CHAU",
+    "label": "Lai Châu",
+    "area": "Tây Bắc Bộ"
+  },
+  {
+    "id": "0205",
+    "alias": "LANG_SON",
+    "label": "Lạng Sơn",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "0214",
+    "alias": "LAO_CAI",
+    "label": "Lào Cai",
+    "area": "Tây Bắc Bộ"
+  },
+  {
+    "id": "0263",
+    "alias": "LAM_DONG",
+    "label": "Lâm Đồng",
+    "area": "Tây Nguyên"
+  },
+  {
+    "id": "0272",
+    "alias": "LONG_AN",
+    "label": "Long An",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0228",
+    "alias": "NAM_DINH",
+    "label": "Nam Định",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "0238",
+    "alias": "NGHE_AN",
+    "label": "Nghệ An",
+    "area": "Bắc Trung Bộ"
+  },
+  {
+    "id": "0259",
+    "alias": "NINH_THUAN",
+    "label": "Ninh Thuận",
+    "area": "Duyên hải Nam Trung Bộ"
+  },
+  {
+    "id": "0210",
+    "alias": "PHU_THO",
+    "label": "Phú Thọ",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "257",
+    "alias": "PHU_YEN",
+    "label": "Phú Yên",
+    "area": "Duyên hải Nam Trung Bộ"
+  },
+  {
+    "id": "0232",
+    "alias": "QUANG_BINH",
+    "label": "Quảng Bình",
+    "area": "Bắc Trung Bộ"
+  },
+  {
+    "id": "0235",
+    "alias": "QUANG_NAM",
+    "label": "Quảng Nam",
+    "area": "Duyên hải Nam Trung Bộ"
+  },
+  {
+    "id": "0255",
+    "alias": "QUANG_NGAI",
+    "label": "Quảng Ngãi",
+    "area": "Duyên hải Nam Trung Bộ"
+  },
+  {
+    "id": "0203",
+    "alias": "QUANG_NINH",
+    "label": "Quảng Ninh",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "0233",
+    "alias": "QUANG_TRI",
+    "label": "Quảng Trị",
+    "area": "Bắc Trung Bộ"
+  },
+  {
+    "id": "0299",
+    "alias": "SOC_TRANG",
+    "label": "Sóc Trăng",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0212",
+    "alias": "SON_LA",
+    "label": "Sơn La",
+    "area": "Tây Bắc Bộ"
+  },
+  {
+    "id": "0276",
+    "alias": "TAY_NINH",
+    "label": "Tây Ninh",
+    "area": "Đông Nam Bộ"
+  },
+  {
+    "id": "0227",
+    "alias": "THAI_BINH",
+    "label": "Thái Bình",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "0208",
+    "alias": "THAI_NGUYEN",
+    "label": "Thái Nguyên",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "0237",
+    "alias": "THANH_HOA",
+    "label": "Thanh Hóa",
+    "area": "Bắc Trung Bộ"
+  },
+  {
+    "id": "0234",
+    "alias": "THUA_THIEN_HUE",
+    "label": "Thừa Thiên Huế",
+    "area": "Bắc Trung Bộ"
+  },
+  {
+    "id": "0273",
+    "alias": "TIEN_GIANG",
+    "label": "Tiền Giang",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0294",
+    "alias": "TRA_VINH",
+    "label": "Trà Vinh",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0207",
+    "alias": "TUYEN_QUANG",
+    "label": "Tuyên Quang",
+    "area": "Đông Bắc Bộ"
+  },
+  {
+    "id": "0270",
+    "alias": "VINH_LONG",
+    "label": "Vĩnh Long",
+    "area": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "id": "0211",
+    "alias": "VINH_PHUC",
+    "label": "Vĩnh Phúc",
+    "area": "Đồng bằng sông Hồng"
+  },
+  {
+    "id": "0216",
+    "alias": "YEN_BAI",
+    "label": "Yên Bái",
+    "area": "Tây Bắc Bộ"
+  }
+]

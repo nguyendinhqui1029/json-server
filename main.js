@@ -44,7 +44,9 @@ router.render=(req,res)=>{
   }
   res.jsonp(res.locals.data);
 };
-
+server.route("/api", (req, res) => {
+   res.sendFile("public/api/index.html", { root: __dirname });
+});
 // Use default router
 server.use('/api',router);
 server.listen(PORT, () => {

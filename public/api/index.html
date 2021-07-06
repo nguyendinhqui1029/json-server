@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Api</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td>Table</td>
+      <td>Method</td>
+      <td>API Name</td>
+      <td>URL</td>
+      <td>Params</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>GET</td>
+      <td>getAllUsers</td>
+      <td>{{baseUrl}}/api/users</td>
+      <td>none</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>GET</td>
+      <td>fillterUsersById</td>
+      <td>{{baseUrl}}/api/users?id=</td>
+      <td>id</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>GET</td>
+      <td>fillterUsersByEmail</td>
+      <td>{{baseUrl}}/api/users?email=</td>
+      <td>email</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>GET</td>
+      <td>pagination</td>
+      <td>{{baseUrl}}/api/users?_page=1&_limit=2</td>
+      <td>_page,_limit</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>PATCH</td>
+      <td>updateUsers</td>
+      <td>{{baseUrl}}/api/users</td>
+      <td>Object JSON</td>
+    </tr><tr>
+      <td>Users</td>
+      <td>POST</td>
+      <td>addNewUsers</td>
+      <td>{{baseUrl}}/api/users/{{id}}</td>
+      <td>id</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>DELETE</td>
+      <td>deleteUsers</td>
+      <td>{{baseUrl}}/api/users/{{id}}</td>
+      <td>id</td>
+    </tr>
+  </table>
+</body>
+</html>

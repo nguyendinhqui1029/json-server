@@ -1,0 +1,750 @@
+[
+  {
+    "id": "D0001",
+    "idCity": "0296",
+    "district": [
+      {
+        "alias": "CHAU_DOC",
+        "label": "Thành phố Châu Đốc"
+      },
+      {
+        "alias": "LONG_XUYEN",
+        "label": "Thành phố Long Xuyên"
+      },
+      {
+        "alias": "TAN_CHAU",
+        "label": "Thị xã Tân Châu"
+      },
+      {
+        "alias": "AN_PHU",
+        "label": "Huyện An Phú"
+      },
+      {
+        "alias": "CHAU_PHU",
+        "label": "Huyện Châu Phú"
+      },
+      {
+        "alias": "CHAU_THANH",
+        "label": "Huyện Châu Thành"
+      },
+      {
+        "alias": "CHO_MOI",
+        "label": "Huyện Chợ Mới"
+      },
+      {
+        "alias": "PHU_TAN",
+        "label": "Huyện Phú Tân"
+      },
+      {
+        "alias": "THOAI_SON",
+        "label": "Huyện Thoại Sơn"
+      },
+      {
+        "alias": "TINH_BIEN",
+        "label": "Huyện Tịnh Biên"
+      },
+      {
+        "alias": "TRI_TON",
+        "label": "Huyện Tri Tôn"
+      }
+    ]
+  },
+  {
+    "id": "D0002",
+    "idCity": "0254",
+    "district": [
+      {
+        "alias": "PHUC_MY",
+        "label": "Thị xã Phú Mỹ"
+      },
+      {
+        "alias": "CHAU_DUC",
+        "label": "Huyện Châu Đức"
+      },
+      {
+        "alias": "CON_DAO",
+        "label": "Huyện Côn Đảo"
+      },
+      {
+        "alias": "DAT_DO",
+        "label": "Huyện Đất Đỏ"
+      },
+      {
+        "alias": "LONG_DIEN",
+        "label": "Huyện Long Điền"
+      },
+      {
+        "alias": "XUYEN_MOC",
+        "label": "Huyện Xuyên Mộc"
+      },
+      {
+        "alias": "VUNG_TAU",
+        "label": "Thành phố Vũng Tàu"
+      },
+      {
+        "alias": "BA_RIA",
+        "label": "Thành phố Bà Rịa"
+      }
+    ]
+  },
+  {
+    "id": "D0003",
+    "idCity": "0291",
+    "district": [
+      {
+        "alias": "BAC_LIEU",
+        "label": "Thành phố Bạc Liêu"
+      },
+      {
+        "alias": "GIA_RAI",
+        "label": "Thị xã Giá Rai"
+      },
+      {
+        "alias": "DONG_HAI",
+        "label": "Huyện Đông Hải"
+      },
+      {
+        "alias": "HOA_BINH",
+        "label": "Huyện Hòa Bình"
+      },
+      {
+        "alias": "HONG_DAN",
+        "label": "Huyện Hồng Dân"
+      },
+      {
+        "alias": "PHUOC_LONG",
+        "label": "Huyện Phước Long"
+      },
+      {
+        "alias": "VINH_LOI",
+        "label": "Huyện Vĩnh Lợi"
+      }
+    ]
+  },
+  {
+    "id": "D0004",
+    "idCity": "0204",
+    "district": [
+      {
+        "alias": "BAC_GIANG",
+        "label": "Thành phố Bắc Giang"
+      },
+      {
+        "alias": "HIEP_HOA",
+        "label": "Huyện Hiệp Hoà"
+      },
+      {
+        "alias": "LANG_GIANG",
+        "label": "Huyện Lạng Giang"
+      },
+      {
+        "alias": "LUC_NAM",
+        "label": "Huyện Lục Nam"
+      },
+      {
+        "alias": "LUC_NGAN",
+        "label": "Huyện Lục Ngạn"
+      },
+      {
+        "alias": "SON_DONG",
+        "label": "Huyện Sơn Động"
+      },
+      {
+        "alias": "TAN_YEN",
+        "label": "Huyện Tân Yên"
+      },
+      {
+        "alias": "VIET_YEN",
+        "label": "Huyện Việt Yên"
+      },
+      {
+        "alias": "YEN_DUNG",
+        "label": "Huyện Yên Dũng"
+      },
+      {
+        "alias": "YEN_THE",
+        "label": "Huyện Yên Thế"
+      }
+    ]
+  },
+  {
+    "id": "D0005",
+    "idCity": "0209",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0006",
+    "idCity": "0222",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0007",
+    "idCity": "0275",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0008",
+    "idCity": "0274",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0009",
+    "idCity": "0256",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0010",
+    "idCity": "0271",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0011",
+    "idCity": "0252",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0012",
+    "idCity": "0290",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0013",
+    "idCity": "0206",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0014",
+    "idCity": "0292",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0015",
+    "idCity": "0236",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0016",
+    "idCity": "0262",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0017",
+    "idCity": "0261",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0018",
+    "idCity": "0215",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0019",
+    "idCity": "0251",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0020",
+    "idCity": "0277",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0021",
+    "idCity": "0269",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0022",
+    "idCity": "0219",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0023",
+    "idCity": "0226",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0024",
+    "idCity": "024",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0025",
+    "idCity": "0239",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0026",
+    "idCity": "0220",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0027",
+    "idCity": "0225",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0028",
+    "idCity": "0293",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0029",
+    "idCity": "0218",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0030",
+    "idCity": "028",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0031",
+    "idCity": "0221",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0032",
+    "idCity": "0258",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0033",
+    "idCity": "0297",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0034",
+    "idCity": "0260",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0035",
+    "idCity": "0213",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0036",
+    "idCity": "0205",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0037",
+    "idCity": "0214",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0038",
+    "idCity": "0263",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0039",
+    "idCity": "0272",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0040",
+    "idCity": "0228",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0041",
+    "idCity": "0238",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0042",
+    "idCity": "0259",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0043",
+    "idCity": "0210",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0044",
+    "idCity": "257",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0045",
+    "idCity": "0232",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0046",
+    "idCity": "0235",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0047",
+    "idCity": "0255",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0048",
+    "idCity": "0203",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0049",
+    "idCity": "0233",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0050",
+    "idCity": "0299",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0051",
+    "idCity": "0212",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0052",
+    "idCity": "0276",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0053",
+    "idCity": "0227",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0054",
+    "idCity": "0208",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0055",
+    "idCity": "0237",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0056",
+    "idCity": "0234",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0057",
+    "idCity": "0273",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0058",
+    "idCity": "0294",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0059",
+    "idCity": "0207",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0060",
+    "idCity": "0270",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0061",
+    "idCity": "0211",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "D0062",
+    "idCity": "0216",
+    "district": [
+      {
+        "alias": "",
+        "label": ""
+      }
+    ]
+  }
+]
