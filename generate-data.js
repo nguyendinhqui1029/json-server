@@ -102,9 +102,10 @@ generateUsers = (number) => {
     );
   });
   subCategoriesLevel2.forEach((categoryLevel2)=>{
-     category.id !== "null" &&
+     categoryLevel2.id !== "null" &&
        products.push(...generateProducts(50, categoryLevel2.id));
-     category.id !== "null" && news.push(...generateNews(10, categoryLevel2.id));
+     categoryLevel2.id !== "null" &&
+       news.push(...generateNews(10, categoryLevel2.id));
   });
   const users = generateUsers(10);
   const db = {
