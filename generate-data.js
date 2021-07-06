@@ -28,7 +28,7 @@ generateProducts = (number, categoryId) => {
       title: faker.commerce.productName(),
       subContent: faker.commerce.productDescription().substr(0, 100),
       detailContent: faker.commerce.productDescription(),
-      image: faker.image.fashion(),
+      imageUrl: faker.image.fashion(),
       categoryId: categoryId,
       price: faker.commerce.price(100000, 2000000, 2),
       discount: faker.random.number({ min: 0, max: 60 }),
@@ -91,9 +91,6 @@ generateUsers = (number) => {
         category.id
       )
     );
-    category.id !== "null" &&
-      products.push(...generateProducts(10, category.id));
-    category.id !== "null" && news.push(...generateNews(10, category.id));
   });
 
   subCategoriesLevel1.forEach((categoryLevel1) => {
@@ -103,6 +100,11 @@ generateUsers = (number) => {
         categoryLevel1.id
       )
     );
+  });
+  subCategoriesLevel2.forEach((categoryLevel2)=>{
+     category.id !== "null" &&
+       products.push(...generateProducts(50, categoryLevel2.id));
+     category.id !== "null" && news.push(...generateNews(10, categoryLevel2.id));
   });
   const users = generateUsers(10);
   const db = {
