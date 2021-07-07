@@ -25,7 +25,7 @@ generateProducts = (number, categoryId) => {
   Array.from(new Array(number)).forEach(() => {
     const category = {
       id: faker.datatype.uuid(),
-      title: faker.commerce.productName(),
+      productName: faker.commerce.productName(),
       subContent: faker.commerce.productDescription().substr(0, 100),
       detailContent: faker.commerce.productDescription(),
       imageUrl: faker.image.fashion(),
