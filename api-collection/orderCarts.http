@@ -1,0 +1,59 @@
+@baseUrl=http://localhost:3200/api
+
+@resourceName=orderCarts
+
+# @name getAllOrderCarts
+Get {{baseUrl}}/{{resourceName}}
+
+###
+# @name fillterOrderCarts
+Get {{baseUrl}}/{{resourceName}}?id=5d1b8222-8241-45dd-ac89-70d1793b6f4a
+
+###
+# @name fillterOrderCartsByStatus
+Get {{baseUrl}}/{{resourceName}}?status=watting payment
+
+###
+# @name fillterOrderCartsByIdCustomer
+Get {{baseUrl}}/{{resourceName}}?idCustomer=5d1b8222-8241-45dd-ac89-70d1793b6f4a
+
+###
+# @name pagination
+Get {{baseUrl}}/{{resourceName}}?_page=1&_limit=2
+
+###
+# @name addNewOrderCarts
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "idCustomer": "5d1b8222-8241-45dd-ac89-70d1793b6f4a",
+    "dataList": {
+      "id": "5d1b8222-8241-45dd-ac89-70d1793b6f4a",
+      "productName": "Fantastic Metal Pants",
+      "subContent": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-d",
+      "detailContent": "Ergonomic executive chair upholstered in bonded bl…ded seat and back for all-day comfort and support",
+      "imageUrl": "http://placeimg.com/640/480/fashion"
+    },
+    "address": {},
+    "addressOther": {},
+    "idDeliveryMethod": "",
+    "idPaymentMethod": "",
+    "deliveryFee": 0,
+    "intoMoney": 736955.2000000001,
+    "totalPay": 736955.2000000001,
+    "status": "watting payment"
+  }
+
+###
+# @name updateOrderCarts
+PATCH {{baseUrl}}/{{resourceName}}/p5QYx00
+Content-Type: application/json
+
+{
+  "title": "Tasty Concrete Keyboard 1"
+}
+
+###
+# @name deleteOrderCarts
+DELETE  {{baseUrl}}/{{resourceName}}/b0Wv9-S
