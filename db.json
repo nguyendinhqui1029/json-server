@@ -61714,47 +61714,6 @@
       "isShow": false
     }
   ],
-  "orderCarts": [
-    {
-      "id": "5d1b8222-8241-45dd-ac89-70d1793b6f4a",
-      "idCustomer": "5d1b8222-8241-45dd-ac89-70d1793b6f4a",
-      "dataList": {
-        "id": "5d1b8222-8241-45dd-ac89-70d1793b6f4a",
-        "productName": "Fantastic Metal Pants",
-        "subContent": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-d",
-        "detailContent": "Ergonomic executive chair upholstered in bonded bl…ded seat and back for all-day comfort and support",
-        "imageUrl": "http://placeimg.com/640/480/fashion"
-      },
-      "address": {},
-      "addressOther": {},
-      "idDeliveryMethod": "",
-      "idPaymentMethod": "",
-      "deliveryFee": 0,
-      "intoMoney": 736955.2000000001,
-      "totalPay": 736955.2000000001,
-      "status": "watting payment"
-    },
-    {
-      "idCustomer": "5d1b8222-8241-45dd-ac89-70d1793b6f4a",
-      "dataList": {
-        "id": "5d1b8222-8241-45dd-ac89-70d1793b6f4a",
-        "productName": "Fantastic Metal Pants",
-        "subContent": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-d",
-        "detailContent": "Ergonomic executive chair upholstered in bonded bl…ded seat and back for all-day comfort and support",
-        "imageUrl": "http://placeimg.com/640/480/fashion"
-      },
-      "address": {},
-      "addressOther": {},
-      "idDeliveryMethod": "",
-      "idPaymentMethod": "",
-      "deliveryFee": 0,
-      "intoMoney": 736955.2000000001,
-      "totalPay": 736955.2000000001,
-      "status": "watting payment",
-      "createdAt": 1626180035467,
-      "updateddAt": 1626180035467,
-      "id": "pKJbTeK"
-    }
-  ],
+  "orderCarts": [],
   "info": {}
 }
